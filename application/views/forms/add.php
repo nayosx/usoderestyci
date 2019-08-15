@@ -50,6 +50,7 @@
                             } else{
                                 toast(response.msg, WARNING);
                             }
+                            console.log(response);
                         },
                         error: function(error){
                             console.log(error);
